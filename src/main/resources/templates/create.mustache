@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+{{> head }}
+<body>
+ {{> nav }}
+ <form action="/createresult" method="POST">
+    Time:<br>
+    <input type="text" name="time" value="12:00">
+    <br>
+    Purpose:<br>
+    <input type="text" name="purpose" value="Lunch">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form> 
+ {{> bootstrap-from-cdn-body }}
+</body>
+</html>
