@@ -4,11 +4,11 @@
 <body>
  {{> nav }}
  <form action="/createresult" method="POST">
-    Time:<br>
-    <input type="text" name="time" value="12:00">
+    Date and Time:<br>
+    <input type="date" name="Date" id="date"><input type = "time" name = "Time" id="time">
     <br>
     Purpose:<br>
-    <input type="text" name="purpose" value="Lunch">
+    <input type="text" name="purpose" id= "purpose" value="Lunch">
     <br><br>
     <input type="submit" value="Submit">
   </form> 
