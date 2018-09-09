@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html>
 {{> head }}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.alert {
+    padding: 20px;
+    background-color: #01DF3A;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+</style>
+
+
 <body>
  {{> nav }}
- <p>
-        This page has the result of joining an alarm.
-    </p>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Success!</strong> You have joined an alarm.
+</div>
  {{> bootstrap-from-cdn-body }}
 </body>
 </html>
