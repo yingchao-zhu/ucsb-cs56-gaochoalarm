@@ -4,10 +4,15 @@
 <body>
  {{> nav }}
  <p>
-     This page has the result of creating a new alarm.
+     You created an GauchoAlarm successfully!
+     The date is {{date}}, at {{time}}.
+     The purpose is {{purpose}}.
+     You can invite your friends to join the alarm using this key: {{key}}.
+     Good luck.
  </p>
-<input type="text" value="Key" id="myInput">
-<button onclick="myFunction()">Copy</button>
+
+<input type="text" value={{key}} id="myInput">
+<button onclick="myFunction()">Copy Key</button>
 
 <script>
 function myFunction() {

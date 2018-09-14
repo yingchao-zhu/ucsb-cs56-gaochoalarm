@@ -3,15 +3,19 @@
 {{> head }}
 <body>
  {{> nav }}
+
  <form action="/createresult" method="POST">
-    Date and Time:<br>
-    <input type="date" name="Date" id="date"><input type = "time" name = "Time" id="time">
+   
+ Date and Time:<br>
+    <input type="date" name="date" id="date">
+    <input type = "time" name = "time" id="time">
     <br>
     Purpose:<br>
-    <input type="text" name="purpose" id= "purpose" value="Lunch">
+    <input type="text" name="purpose" value="" id="purpose">
     <br><br>
+
     <input type="submit" value="Submit">
-  </form> 
+ 
  {{> bootstrap-from-cdn-body }}
 </body>
 </html>

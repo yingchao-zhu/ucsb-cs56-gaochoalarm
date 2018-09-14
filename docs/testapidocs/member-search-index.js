@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"edu.ucsb.cs56.pconrad","c":"SparkDemo01Test","l":"restoreStreams()"},{"p":"edu.ucsb.cs56.pconrad","c":"SparkDemo01Test","l":"setUpStreams()"},{"p":"edu.ucsb.cs56.pconrad","c":"SparkDemo01Test","l":"SparkDemo01Test()"},{"p":"edu.ucsb.cs56.pconrad","c":"SparkDemo01Test","l":"test_out()"}]

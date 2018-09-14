@@ -5,7 +5,7 @@
 <style>
 .alert {
     padding: 20px;
-    background-color: #01DF3A;
+    background-color: #04B431;
     color: white;
 }
 
@@ -24,14 +24,21 @@
     color: black;
 }
 </style>
-
-
 <body>
  {{> nav }}
-<div class="alert">
+ <div class="alert">
   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  <strong>Success!</strong> You have joined an alarm.
+  <strong>Success!</strong> You have joined an alarm!
 </div>
+ <p>
+        {{Massage}}
+        The date is {{date}}, at {{time}}.
+     The purpose is {{purpose}}.
+     You can also invite your friends to join this alarm using this key: {{key}}.
+     Good luck.
+    </p>
+
+
  {{> bootstrap-from-cdn-body }}
 </body>
 </html>
